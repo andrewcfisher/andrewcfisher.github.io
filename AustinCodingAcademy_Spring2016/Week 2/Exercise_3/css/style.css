@@ -1,19 +1,21 @@
-<!DOCTYPE html>
-<html>
-    
-    <head>
-    
-        <title>TEMPLATE</title>
-        <link rel="stylesheet" href="css/style.css" type="text/css">
-    
-    </head>
-
-    <body>
-        
-        <img src="img/berries.jpg"/>
-        
-    </body>
-
-
-
-</html>
+boxes {
+    width:500px
+}
+.berry {
+    100%;
+    float:left;
+}
+.berry > img {
+    height: 100%;
+    width: auto;
+}
+.words {
+    float:right;
+}
+#more {
+    font-weight: 900;
+    color: #252b3b;
+    border: solid 2px #555;
+    padding: 5px;
+    text-decoration: none;
+}
