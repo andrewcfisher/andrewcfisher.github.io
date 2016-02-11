@@ -1,0 +1,64 @@
+.heading {
+    background-color: royalblue;
+    color: floralwhite;
+    padding: 4px;
+}
+nav a{
+    color: #F0FFFF;
+}
+#product {
+    
+    font-family: sans-serif;
+}
+.info {
+    width: 1000px;
+}
+.left {
+    float: left;
+    width: 50%;
+}
+.right {
+    float: right;
+    width: 50%;
+}
+.future {
+    width: 500px;
+    display:inline-block
+    border:solid 1px red;
+}
+body {
+    margin-left: 30px;
+    margin-right: 150px;
+    font-family: sans-serif;
+}
+#dude {
+    float: right;
+}
+#support {
+    background-color: #F5F5F5;
+    clear: both;
+    padding: 3px
+}
+.info {
+    font-family: sans-serif;
+}
+p {
+    font-size: .8em;
+}
+#city {
+}
+#pain {
+    float: right;
+    max-width: 80%;
+    margin-right: -385px;
+    margin-top: -200px
+}
+#wake {
+    margin-top: 70px;
+}
+#overview {
+    font-size: 26px;
+}
+#customer {
+    font-size: 26px;
+}

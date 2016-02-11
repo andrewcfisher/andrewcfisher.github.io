@@ -4,17 +4,20 @@ section {
 .berry {
     float:left;
     width:50%;  
+}
+h1 {
     color: #252b3b;
     font-size:1.9em;
 }
 .berry > img {
-    height: 100%;
-    width: auto;
+    max-width: 100%;
 }
 .words {
     float:right;
-    text-align: center
+    text-align: center;
     width: 50%;
+    background-color: rgb(240,240,240);
+    margin-top: 100px;
 }
 #more {
     font-weight: 900;
@@ -23,6 +26,7 @@ section {
     padding: 5px;
     text-decoration: none;
 }
-main {
-    
+#delicious {
+    color:#555;
+    padding-bottom: 20px;
 }
