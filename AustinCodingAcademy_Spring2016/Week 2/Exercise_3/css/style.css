@@ -17,7 +17,9 @@ h1 {
     text-align: center;
     width: 50%;
     background-color: rgb(240,240,240);
-    margin-top: 100px;
+    padding-bottom: 125px;
+    padding-top: 140px;
+    
 }
 #more {
     font-weight: 900;
