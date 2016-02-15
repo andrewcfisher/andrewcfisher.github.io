@@ -1,12 +1,39 @@
 #pic {
-    margin:auto;
-    margin-right: -25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 20%;
     width: 20%;
+}
+
+h1 {
+    text-align: center;
 }
 
 .assignments {
     width: 10em;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
+}
+
+.weeks a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    font-size: 1.2em;
+    color:red;
+}
+
+a:visited {
+    color: darkcyan;
+    
+}
+
+.weeks h2 {
+    text-decoration: none;
+    color:black;
+    font-size: 1.5em; 
 }
