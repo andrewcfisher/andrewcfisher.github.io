@@ -1,6 +1,6 @@
 #pic {
     display: block;
-    margin-left: auto;
+    margin-left: 400px;
     margin-right: auto;
     height: 20%;
     width: 20%;
@@ -15,7 +15,7 @@ h1 {
 
 .assignments {
     width: 10em;
-    margin-left: auto;
+    margin-left: 420px;
     margin-right: auto;
     text-align: center;
     font-family: monospace;
