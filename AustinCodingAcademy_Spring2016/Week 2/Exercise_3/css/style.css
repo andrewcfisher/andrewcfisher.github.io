@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 section {
     width:500px
 }
@@ -17,7 +22,7 @@ h1 {
     text-align: center;
     width: 50%;
     background-color: rgb(240,240,240);
-    padding-bottom: 125px;
+    padding-bottom: 150px;
     padding-top: 140px;
     
 }
