@@ -5,6 +5,13 @@
 
 section {
     width:500px
+        
+main {
+    width: 50%;
+    background-color: rgb(240,240,240);
+    padding-bottom: 155px;
+    padding-top: 140px;
+    }
 }
 .berry {
     float:left;
