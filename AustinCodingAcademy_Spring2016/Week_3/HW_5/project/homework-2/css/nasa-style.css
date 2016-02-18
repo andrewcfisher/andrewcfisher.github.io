@@ -27,7 +27,9 @@
 .words {
     margin: 9%;
     background-color: #DCDCDC;
-    margin-top: 20%
+    margin-top: 22%;
+    display:inline-block;
+    width: 850px;
 }
 
 .words ul {
@@ -36,20 +38,17 @@
 
 .media {
     float: left;
-    padding-right: 5%;
+    padding-right: 10%;
 }
 .info {
     float: left;
-    padding-right: 5%;
+    padding-right: 10%;
 }
 
 .contact {
     float: left;
-    padding-right: 5%;
+    padding-right: 10%;
     width: 10%;
-}
-.image_text {
-    clear: both;
 }
 
 #name {
@@ -58,4 +57,8 @@
 
 #message {
     padding: 20%;
+}
+
+/*.clearfix {*/
+    clear: both;
 }
