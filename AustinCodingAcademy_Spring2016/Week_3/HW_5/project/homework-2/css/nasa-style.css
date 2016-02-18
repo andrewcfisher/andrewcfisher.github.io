@@ -5,7 +5,7 @@
 
 .background {
     margin-left: 9%;
-    width: 100%px;
+    width: 100%;
     height: 100px;
     background-image: url(img/nasa-background.jpg)
 }
@@ -30,6 +30,7 @@
     margin-top: 22%;
     display:inline-block;
     width: 850px;
+    font-family: sans-serif
 }
 
 .words ul {
@@ -38,19 +39,46 @@
 
 .media {
     float: left;
-    padding-right: 10%;
+    padding-right: 5px;
+    width: 270px;
 }
 .info {
     float: left;
-    padding-right: 10%;
+    padding-right: 5px;
+    width: 270px;
+}
+
+.media li:first-child {
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.info li:first-child {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+
+.info li {
+    margin-bottom: 5px;
+}
+
+.media li {
+    margin-bottom: 5px;
 }
 
 .contact {
-    float: left;
-    padding-right: 10%;
-    width: 10%;
+    float: left; 
+    width: 100px;
+    padding-bottom: 10px;
 }
 
+.contact p {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
 #name {
     padding:4%;
 }
@@ -61,4 +89,21 @@
 
 /*.clearfix {*/
     clear: both;
+}
+
+li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.button {
+    text-decoration: none;
+    display: block;
+    color: white;
+    background-color:  #434d56;
+    height: 30px;
+    width: 80px;
+    padding-top: 8px;
+    margin-top: 10px;
+    text-align: center;
 }
