@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.project {
+    width: 100%;
+}
+
+.img_info {
+    float: left;
+    width: 24%;
+    margin: 4%
+}
+
+.travel {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    color: black;
+    border-right: 5px solid red;
+}
+
+a:hover {
+    background-color: blue;
+    transition: all 2s;
+}
