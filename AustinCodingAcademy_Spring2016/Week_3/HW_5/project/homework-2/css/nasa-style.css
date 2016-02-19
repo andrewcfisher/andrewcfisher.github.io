@@ -28,8 +28,9 @@
     margin: 9%;
     background-color: #DCDCDC;
     margin-top: 22%;
-    display:inline-block;
+/*    display:inline-block;*/
     width: 850px;
+    height: 324px;
     font-family: sans-serif
 }
 
@@ -52,6 +53,15 @@
     font-weight: 900;
     margin-bottom: 15px;
     padding-top: 15px;
+}
+
+.clearfix {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
 }
 
 .info li:first-child {
@@ -104,6 +114,6 @@ li {
     height: 30px;
     width: 80px;
     padding-top: 8px;
-    margin-top: 10px;
+    margin-top: 11px;
     text-align: center;
 }
