@@ -1,0 +1,47 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.big_one {
+    margin: 3%;
+    width: 45%;
+    float: left;
+}
+
+.big_one img {
+    width: 85%
+}
+
+.small_one {
+    margin: 2%;
+    width: 45%;
+    float: left;
+}
+
+.text_image img {
+    height: 15%;
+    width: 30%
+    
+}
+
+.small {
+    width: 40%;
+    height: 20%;
+    float: left;
+}
+
+.small_text {
+    width: 50%;
+    
+    float: left;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
