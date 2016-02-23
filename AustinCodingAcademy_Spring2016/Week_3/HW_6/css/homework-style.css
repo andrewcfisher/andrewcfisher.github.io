@@ -76,6 +76,7 @@ html,body {
 }
 
 .small_text {
+    padding-left: 2%;
     width: 50%;
     float: left;
 }
