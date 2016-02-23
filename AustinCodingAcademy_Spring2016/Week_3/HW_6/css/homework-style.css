@@ -105,6 +105,7 @@ hr {
 
 .selling {
     width: 20%;
+    height: 140px;
     float: left;
     font-size: .8rem;
     font-weight: 300;
@@ -126,7 +127,7 @@ hr {
 }
 
 .vertical_line {
-    height: 80px;
+    height: 90px;
     width: 1px;
     background: black;
     position: relative;
@@ -139,7 +140,11 @@ hr {
     right: 50px;
 }
 
-#first
+#first {
+    position: relative;
+    bottom: 110px;
+}
+
 
 
 
