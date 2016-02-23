@@ -124,7 +124,21 @@ hr {
     color: green;
 }
 
+.vertical_line {
+    height: 80px;
+    width: 1px;
+    background: black;
+    position: relative;
+    bottom: 85px;
+    font-weight: 300;
+}
 
+#second {
+    position: relative;
+    right: 50px;
+}
+
+#first
 
 
 
