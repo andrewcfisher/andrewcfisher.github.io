@@ -66,8 +66,11 @@ main > div {
     margin-bottom: 5%;
 }
 
-.two_boxes span {
-    width: 5%;
+#pain {
+    margin-top: -3%;
+    margin-left: 15%;
+    width: 400px;
+    
 }
 
 .two_boxes h3 {
