@@ -67,8 +67,10 @@ main > div {
 }
 
 #pain {
-    margin-top: -3%;
-    width: 400px;   
+    margin-top: -5%;
+    text-align: center;
+    width: 100%;
+      
 }
 
 .two_boxes h3 {
