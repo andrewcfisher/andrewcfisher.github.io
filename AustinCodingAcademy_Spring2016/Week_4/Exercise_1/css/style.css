@@ -41,26 +41,40 @@ p {
 
 #uno {
     background-image: url(../img/featured-image-3.jpg);
-    background-size: cover;
+/*    background-size: cover;*/
+    height: 205px;
 }
 
 #dos {
     background-image: url(../img/featured-image-4.jpg);
-    background-size: cover;
-    margin-top: 8%;
+/*    margin-top: 8%;*/
+    height: 205px;
+    margin-top: 25px;
 }
 
 #tres {
     background-image: url(../img/featured-image-5.jpg);
     background-size: cover;
-    width: 68%;
+    width: 65%;
     float: left;
     margin-left: 2%;
+    height: 435px;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
 }
 
 .opacity > div {
     background-color: rgba(0,0,0, .6);
-    padding: 100px 30px;
+    height: 100%;
+    padding-left: 14%;
+    
 }
 
 .opacity {
@@ -72,13 +86,11 @@ p {
     width: 30%; 
 }
 
-.left p {
-}
-
 main {
     line-height: 2.5;
     margin-left: 5%;
     margin-right: 5%;
+    height: 500px;
 }
 
 h2 {
