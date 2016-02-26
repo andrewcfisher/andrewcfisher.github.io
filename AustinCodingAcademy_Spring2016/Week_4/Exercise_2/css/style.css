@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Bell";
+    src: url(../fonts/BELL.TTF);
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    color: red;
+    font-weight: 600;
+}
+
+p {
+    font-family: "Bell";
+}
