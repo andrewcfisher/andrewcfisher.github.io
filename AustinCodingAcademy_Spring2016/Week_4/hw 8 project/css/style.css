@@ -58,6 +58,22 @@ main > div {
 
 .two_boxes div:first-child {
     width: 60%;
+    text-align: center;
+}
+
+.two_boxes p:first-child {
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+.two_boxes span {
+    width: 5%;
+}
+
+.two_boxes h3 {
+    font-weight: 900;
+    font-size: 1.4rem;
+    font-family: cursive
 }
 
 .two_boxes div:nth-child(2) {
