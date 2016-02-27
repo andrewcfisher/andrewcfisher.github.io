@@ -1,5 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif; 
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 nav {
@@ -44,8 +46,19 @@ main {
 }
 
 main > div {
-    background-color: rgba(0,0,0, .6);
-    padding: 200px 0;
+    background-color: rgba(0,0,0, .7);
+    padding: 120px 0;
+}
+
+main h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+    margin-bottom: 10%;    
+}
+
+main p {
+    font-size: .9rem; 
+    font-family: cursive;
 }
 
 .two_boxes {
@@ -89,8 +102,65 @@ main > div {
     margin-left: 15%;
 }
 
+section {
+    background-image: url(../img/wine13.jpg);
+    clear: both;  
+}
+
 section > div {
+    background-color: rgba(0,0,0, .8);
+    background-size: cover;
+    color: white;
+    padding-top: 7%;
+    padding-bottom: 7%;
     text-align: center;
-    clear: both;
+}
+
+section h2 {
+    font-size: 1.3rem;
+    font-family: cursive;
+    font-weight: 900;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+section p {
+    font-size: .8rem;
+    color: #f9f9eb;
+}
+
+.bottles img {
+    max-height: 180px;
+}
+
+.bottles {
+    float: left;
+    width: 20%;
+    margin-right: 7%;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.bottles h3 {
+    font-size: 1.1rem;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+.bottles p {
+    font-size: .5rem;
+}
+
+.bottles a {
+    border: 1px solid #666600;
+    background-color: #666600;
+;
+    color: white;
+    padding: 3%;
+    font-size: .6rem;
+}
+
+footer {
+    margin-bottom: 35%; 
 }
 
