@@ -149,12 +149,12 @@ section p {
 
 .bottles p {
     font-size: .5rem;
+    padding-bottom: 3%;
 }
 
 .bottles a {
     border: 1px solid #666600;
     background-color: #666600;
-;
     color: white;
     padding: 3%;
     font-size: .6rem;
