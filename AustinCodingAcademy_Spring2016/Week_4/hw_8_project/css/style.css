@@ -1,5 +1,5 @@
 body {
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif, serif; 
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -53,12 +53,13 @@ main > div {
 main h2 {
     font-size: 2.2rem;
     font-weight: 500;
-    margin-bottom: 10%;    
+    margin-bottom: 10%; 
 }
 
 main p {
     font-size: .9rem; 
-    font-family: cursive;
+    font-style: italic;
+    font-family: serif;
 }
 
 .two_boxes {
@@ -88,9 +89,10 @@ main p {
 }
 
 .two_boxes h3 {
-    font-weight: 900;
+    font-weight: 700;
     font-size: 1.4rem;
-    font-family: cursive
+    font-family: serif;
+    font-style: italic;
 }
 
 .two_boxes div:nth-child(2) {
@@ -117,9 +119,10 @@ section > div {
 }
 
 section h2 {
-    font-size: 1.3rem;
-    font-family: cursive;
-    font-weight: 900;
+    font-size: 1.4rem;
+    font-family: serif;
+    font-style: italic;
+    font-weight: 700;
     margin-top: 2%;
     margin-bottom: 4%;
 }
@@ -144,7 +147,7 @@ section p {
 .bottles h3 {
     font-size: 1.1rem;
     font-weight: 900;
-    font-family: cursive;
+    font-style: italic;
 }
 
 .bottles p {
