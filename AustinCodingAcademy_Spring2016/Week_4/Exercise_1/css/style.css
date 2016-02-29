@@ -54,7 +54,6 @@ p {
 
 #tres {
     background-image: url(../img/featured-image-5.jpg);
-    background-size: cover;
     width: 65%;
     float: left;
     margin-left: 2%;
@@ -72,7 +71,7 @@ p {
 }
 
 .opacity > div {
-    height: 80%;
+    height: 82%;
     padding-left: 10%;
     padding-top: 12%;
     background-color: rgba(0,0,0, .6);
