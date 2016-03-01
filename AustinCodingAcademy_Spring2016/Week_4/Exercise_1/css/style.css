@@ -74,12 +74,14 @@ p {
     visibility: hidden;
 }
 
+/*
 .opacity > div {
-    height: 83.3%;
+    height: 83.4%;
     padding-left: 10%;
     padding-top: 12%;
     background-color: rgba(0,0,0, .6);
 }
+*/
 
 .opacity {
     width: 100%;
@@ -116,5 +118,19 @@ h2 {
     font-size: .6rem;
     border: .5px solid white;
     text-transform: uppercase;
+}
+
+.small {
+    background-color: rgba(0,0,0, .6);
+    padding-top: 30px;
+    padding-left: 20px;
+    height: 172.5px;
+}
+
+.big {
+    background-color: rgba(0,0,0, .6);
+    padding-top: 90px;
+    padding-left: 40px;
+    height: 340px;
 }
 
