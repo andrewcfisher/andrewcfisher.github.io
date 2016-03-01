@@ -1,9 +1,53 @@
-#pic {
+body {
+    margin: 5%
+}
+
+/*
+.clearfix:after {
+    clear: both;
+    content: ".";
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 20%;
-    width: 20%;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+*/
+
+
+.header {
+/*    border: 1px solid #ffffe6;*/
+/*    background-color: #ffffe6;*/
+    background-image: url(../images/Nature___Islands_____A_small_island_with_trees_078308_.jpg);
+    display: cover;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 500px;
+    padding-bottom: 7%;
+    text-align: center;
+        
+}
+
+#jessica {
+    float: left;
+    border-radius: 30%;
+    height: 10%;
+    margin-top: 15%;
+    margin-left: 20%
+}
+
+#me {
+    margin-top: 16%;
+    border-radius: 30%;
+    height: 30%;
+    width: 15%;    
+}
+
+#hut {
+    float: left;
+    border-radius: 30%;
+    height: 15%;
+    margin-top: 10%;
+    margin-left: 15%
 }
 
 h1 {
@@ -12,6 +56,17 @@ h1 {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 2.0rem;
+    font-weight: 900;
+}
+
+main {
+    background-image:url(../images/ocean-floor.jpg);
+    background-size: 100%;
+    display: cover;
+    background-repeat: no-repeat;
+    
+
 }
 
 .assignments {
@@ -22,9 +77,18 @@ h1 {
     font-family: monospace;
 }
 
+.weeks {
+    padding-top: 15%;
+    padding-bottom: 10%;
+}
+
 .weeks a {
     text-decoration: none;
     color: black;
+}
+
+.weeks h2 {
+    font-family: serif
 }
 
 a:hover {
@@ -33,7 +97,7 @@ a:hover {
 }
 
 a:visited {
-    color: darkcyan;
+    color: #990000;
     
 }
 
