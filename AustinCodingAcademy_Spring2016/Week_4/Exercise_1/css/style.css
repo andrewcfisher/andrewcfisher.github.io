@@ -65,6 +65,7 @@ p {
 
 }
 
+/*
 .clearfix:after {
     clear: both;
     content: ".";
@@ -73,6 +74,7 @@ p {
     line-height: 0;
     visibility: hidden;
 }
+*/
 
 /*
 .opacity > div {
