@@ -1,0 +1,45 @@
+body {
+    margin: 5%;
+    font-family: "Combo";
+}
+
+#first {
+    height: 300px;
+    width: 400px;
+}
+
+#second {
+    height: 300px;
+    width: 180px;
+}
+
+#third {
+    height: 300px;
+    width: 350px;
+}
+
+.pics {
+    background-color: dimgray;
+    padding: 2%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+}
+
+.text {
+    float: left;
+    text-align: left;
+    padding: 2%;
+}
