@@ -24,9 +24,28 @@ body {
     text-align: center;
 }
 
+.text h2 {
+    font-size: 1.2rem;
+    color: aqua;
+}
+
+.text span {
+    font-style: italic;
+    font-size: 1.4rem;
+    font-weight: 900;
+    color: red;
+}
+
+.list {
+    margin-top: 2%;
+    margin-left: 7%;
+    margin-bottom: 5%;
+}
+
 h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 600;
+    color: #8FBC8F;
 }
 
 .clearfix:after {
@@ -42,4 +61,8 @@ h1 {
     float: left;
     text-align: left;
     padding: 2%;
+}
+
+.video {
+    margin-top: 5%;
 }
