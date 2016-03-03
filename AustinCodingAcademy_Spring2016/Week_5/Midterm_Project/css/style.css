@@ -118,7 +118,9 @@ nav li {
 }
 
 section {
-    margin-top: 3%;
+    background-color: gainsboro;
+    padding-top: 2%;
+    padding-bottom: 3%;
 }
 
 section h2 {
@@ -155,11 +157,16 @@ section h3 {
     width: 40%
 }
 
+.outside_fest {
+    
+}
+
 .Fest_Pics {
     width: 96%;
     padding-left: 10%;
-    margin-top: 4%;
+    margin-top: %;
     margin-bottom: 4%;
+    
 }
 
 .two_boxes {
