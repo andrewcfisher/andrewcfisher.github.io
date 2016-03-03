@@ -178,3 +178,7 @@ section h3 {
 .Fest_Pics img{
     height: 100px;
 }
+
+footer a {
+    text-decoration: none;
+}
