@@ -209,30 +209,37 @@ footer a {
 }
 
 footer {
-    background-image: url(http://www.insideedition.com/misc/031815_toddler_street_525.jpg);
-    height: 300px;
+    background-image: url(http://www.earlcoxphotography.com/img/s10/v115/p1057260167-3.jpg);
     background-repeat: no-repeat;
+    height: 300px;
+/*
     background-size: 100%;
+*/
     color: white;
-    text-align: center;
 }
 
+/*
 footer p {
     font-size: 3rem;
     padding-top: 10%;
     padding-bottom: 5%;
 }
+*/
 
+/*
 .anchors {
     width: 60%;
     margin-left: 20%;
 }
+*/
 
+/*
 footer a {
     margin: 10%;
     color: purple;
     font-weight: 800;
     font-size: 2rem;
 }
+*/
 
 
