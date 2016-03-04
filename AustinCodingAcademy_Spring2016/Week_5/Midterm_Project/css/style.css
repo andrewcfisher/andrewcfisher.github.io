@@ -2,6 +2,14 @@ body {
     font-family: 'Cabin Sketch', cursive; 
     margin-left: 3%;
     margin-right: 3%;
+    width: 94%;
+    font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+  }
 }
 
 a:hover {
@@ -24,6 +32,7 @@ nav h1 {
     padding-top: 2%;
     padding-bottom: 1%;  
     font-weight: 800;
+    width: 30%;
 }
 
 nav ul {
@@ -31,13 +40,26 @@ nav ul {
     padding-bottom: 1%;
     float: right; 
     width: 70%;
+    text-align:right;
+}
+
+#contribute {
+/*    margin-left: 3%;*/
 }
 
 nav li {
-    width: 15%;
+/*    width: 14%;*/
+    margin-left: 20px;
     display: inline-block;
     font-size: 1.2rem;
+    border-right: .5px solid black; 
+    padding-right: 5%;
 }
+
+#bio {
+    border: none;
+}
+
 .clearfix:after {
     clear: both;
     content: ".";
@@ -47,12 +69,14 @@ nav li {
     visibility: hidden;
 }
 
+/*
 .lines {
     margin-right: 2%;
     padding-left: 3%;
-    border-right: .5px solid black;
+    
     border-left: .5px solid black;
 }
+*/
 
 .Big_Image_Title {
     background-image: url(https://media2.giphy.com/media/oyvqojjmSKz8k/200_s.gif);
@@ -180,3 +204,11 @@ section h3 {
 footer a {
     text-decoration: none;
 }
+
+footer {
+    background-image: url(http://www.insideedition.com/misc/031815_toddler_street_525.jpg);
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
