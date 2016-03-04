@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+}
+
+h1 {
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.top img {
+    width: 100%;
+    height: 320px;
+}
+
+.middle {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.middle h2 {
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+.middle p {
+    font-size: 1.3rem;
+    margin-bottom: 3%;
+}
+
+footer img {
+    width: 18%;
+    height: 150px;
+    margin-right: 8%;
+}
+
+footer {
+    text-align:center;
+    margin-top: 8%;
+    margin-bottom: 10%;
+    
+}
+
