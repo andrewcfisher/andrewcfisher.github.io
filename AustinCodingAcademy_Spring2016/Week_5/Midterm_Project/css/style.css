@@ -8,12 +8,6 @@ body {
     margin-bottom: 2%;
 }
 
-@media (max-width: 600px) {
-  body {
-    margin: 0;
-  }
-}
-
 a:hover {
     color: palevioletred;
 }
@@ -70,18 +64,23 @@ nav li {
     background-image: url(https://media2.giphy.com/media/oyvqojjmSKz8k/200_s.gif);
     padding: 10%;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     text-align: center;
     color: mediumpurple;
     font-size: 3rem; 
     width: 80%;
+    overflow-y: scroll;
 }
 
 .Big_Image_Title h2 {
     font-size: 4rem;
-    font-weight: 700;   
+    font-weight: 700; 
+    width: 100%;
 }
 
+.Big_Image_Title h3 {
+    width: 100%;
+}
 .Big_Image_Title a {
     text-decoration: none;
     color: aliceblue;
@@ -92,6 +91,7 @@ nav li {
     border-bottom-left-radius: 95%;
     border-bottom-right-radius: 95%;
     padding: 1%;
+    width: 100%;
 }
 
 .Big_Image_Title a:hover {
@@ -101,6 +101,7 @@ nav li {
 .Med_and_Text {
     width: 100%;
     background-color: rgba(0,0,0, .7);
+    overflow-y: scroll;
 }
 
 .MText {
@@ -113,12 +114,14 @@ nav li {
     font-size: 1.6rem;
     text-align: center;
     color: #FFFAF0;
+    width: 100%;
 }
 
 .MText p {
     line-height: 140%;
     font-family: serif;
     color: #FFFAF0;
+    width: 100%;   
 }
 
 
@@ -133,6 +136,10 @@ section {
     background-color: gainsboro;
     padding-top: 2%;
     padding-bottom: 3%;
+}
+
+.small_text {
+    overflow-y: scroll;
 }
 
 section h2 {
@@ -153,12 +160,12 @@ section h3 {
 
 .imgandpic {
     width: 20%;
-    display: inline-block;
     margin-right: 4%;
+    float: left;
 }
 .small_pics img{
     width: 60%;
-    height: 140px;   
+    height: 140px;  
 }
 
 #Me {
@@ -169,9 +176,6 @@ section h3 {
     width: 40%
 }
 
-.outside_fest {
-    
-}
 
 .Fest_Pics {
     width: 96%;
@@ -184,6 +188,7 @@ section h3 {
     width: 43%;
     float: left;
     margin-top: 2%;
+    overflow-y: scroll;
 }
 
 .Fest_Pics img{
@@ -234,4 +239,62 @@ footer {
 
 .anchors a:hover {
     color: #990000;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+    .small_text {
+        font-size: .7rem;
+    }
+    .small_text h3 {
+        font-size: .8rem;
+    }
+    .imgandpic {
+        clear: both;
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    nav li {
+        font-size: .8rem;
+    }
+    nav h1 {
+        font-size: .9rem;
+    }
+    .two_boxes {
+        height: 100px;
+        width: 300px;
+    }
+    .two_boxes img {
+        height: 100px;
+    }
+    .Med_and_Text img {
+        height: 100px;
+    }
+    
+    
+}
+
+@media (max-width: 650px) {
+    #Maryn: 90px;
+    #Me: 100px; 
+}
+@media (max-width: 1015px) {
+    #Darren {
+        height: 100px;
+    }
+}
+
+@media (max-width: 990px) {
+    #Maryn {
+        height: 110px;
+    }
+}
+
+@media (max-width: 935px) {
+    #Felipe {
+        height: 110px;
+    }
 }
