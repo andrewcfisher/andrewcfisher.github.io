@@ -286,7 +286,7 @@ footer {
     footer {
         height: auto;
         width: auto;
-        
+        overflow-y: auto;
     }
     
     
