@@ -212,7 +212,6 @@ footer a {
 footer {
     background-image: url(http://www.earlcoxphotography.com/img/s10/v115/p1057260167-3.jpg);
     background-repeat: no-repeat;
-    display: cover;
     height: 300px;
     width: 580px;
     margin: 0 auto;
@@ -283,6 +282,11 @@ footer {
     }
     .Med_and_Text img {
         height: 100px;
+    }
+    footer {
+        height: auto;
+        width: auto;
+        
     }
     
     
