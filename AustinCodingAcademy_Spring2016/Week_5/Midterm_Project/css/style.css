@@ -163,6 +163,16 @@ section h3 {
     margin-right: 4%;
     float: left;
 }
+
+.imgandpic a {
+    text-decoration: none;
+    color: black; 
+}
+
+.imgandpic a:hover {
+    text-decoration: underline;
+}
+
 .small_pics img{
     width: 60%;
     height: 140px;  
@@ -202,6 +212,7 @@ footer a {
 footer {
     background-image: url(http://www.earlcoxphotography.com/img/s10/v115/p1057260167-3.jpg);
     background-repeat: no-repeat;
+    display: cover;
     height: 300px;
     width: 580px;
     margin: 0 auto;
@@ -253,9 +264,9 @@ footer {
     }
     .imgandpic {
         clear: both;
-        width: 30%;
-        margin-left: 35%;
-        margin-right: 35%;
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
     }
     nav li {
         font-size: .8rem;
@@ -283,7 +294,7 @@ footer {
 }
 @media (max-width: 1015px) {
     #Darren {
-        height: 100px;
+        height: 120px;
     }
 }
 
