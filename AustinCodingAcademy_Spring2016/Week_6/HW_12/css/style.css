@@ -1,0 +1,57 @@
+main {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.top {
+    background-color: #21B6A8;
+    height: 250px;
+}
+
+.middle {
+    background-color: black;
+    height: 250px;
+}
+
+footer {
+    background-color: deepskyblue;
+    height: 250px;
+}
+
+h1 {
+    padding-top: 105px;
+}
+
+h2 {
+    padding-top: 105px;
+}
+.block {
+    height: 27px;
+    width: 170px;
+    margin: auto;
+}
+
+.block_text {
+    float: left;
+    width: 15%;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+}
+
+#black {
+    background-color: black;
+}
+
+#orange {
+    background-color: coral;
+}
+
+#aqua {
+    background-color: #21B6A8;
+}
+
+#white {
+    background-color: white;
+}
