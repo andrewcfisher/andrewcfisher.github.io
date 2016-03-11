@@ -10,16 +10,20 @@ main {
 .top {
     background-color: #21B6A8;
     height: 270px;
+    line-height: 270px;
 }
 
 .middle {
     background-color: black;
     height: 270px;
+    line-height: 270px;
 }
 
+/*
 .middle h2 {
     padding-top: 105px;
 }
+*/
 
 footer {
     background-color: deepskyblue;
@@ -29,9 +33,11 @@ footer {
     color: white;
 }
 
+/*
 h1 {
     padding-top: 105px;
 }
+*/
 
 footer h2 {
     font-size: 2rem;
@@ -72,22 +78,45 @@ footer h2 {
     .top {
         width: 50%;
         float: left;
+        line-height: 80px;
     }
     .middle {
         width: 50%;
         float: left;
+        line-height: 70px;
+    }
+
+    h1 {
+        padding-top: 10%;
+        padding-left: 7%;
+    }
+    main h2 {
+        width: 80%;
+        padding-top: 10%;
+        padding-left: 10%;
     }
     main {
-        float: left;
-        width: 100%;
+        width: 100%; 
     }
     .clearfix {
-    clear: both;
+        clear: both;
     }
+/*
+    .clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    line-height: 0;
+    visibility: hidden;
+*/
+}
     .block_text {
         width: 25%;
+        margin-left: 10%;
+        padding-bottom: 5%;
     }
     footer {
-        overflow-y: auto;
+        height: 600px;
     }
 }
