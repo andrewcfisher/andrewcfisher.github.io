@@ -24,4 +24,7 @@ li a {
     margin-right: 15px;
 }
 
-.my_content p
+.my_content img {
+    height: 200px;
+    width: auto; 
+}
