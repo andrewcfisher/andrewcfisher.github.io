@@ -1,0 +1,37 @@
+body {
+    width: 100%;
+}
+
+.my_header {
+    text-align: center;
+    font-family: impact;
+}
+
+.my_header h1 {
+    font-size: 16rem;
+}
+
+.big_boy img {
+    width: 100%;
+}
+
+.info {
+    padding: 4%;
+}
+
+.info form {
+    margin-top: 15%;
+    width: 100%;
+    font-size: 3rem;
+}
+.buy {
+    font-size: 3rem;
+    width: 100%;
+    margin-top: 50%;
+    border: 3px solid black;
+    margin-left: 30%;
+}
+
+.buy a {
+    color: #5d091a;
+}
