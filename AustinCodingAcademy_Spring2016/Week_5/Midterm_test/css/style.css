@@ -44,8 +44,34 @@ footer img {
 
 footer {
     text-align:center;
+    width: 100%;
     margin-top: 8%;
     margin-bottom: 10%;
-    
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
+@media (max-width: 720px) {
+    footer img {
+        height: 90px;
+    }
+}
+
+@media (max-width: 650px) {
+    .top img {
+        height: 150px;
+    }  
+    .middle h2 {
+        font-size: 1.3rem;
+    }
+    .middle p {
+        font-size: .9rem;
+    }
+    
+} 
+
+@media (min-width: 940px) {
+    .top img {
+        height: 430px;
+    }
+}
