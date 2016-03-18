@@ -35,3 +35,9 @@ body {
 .buy a {
     color: #5d091a;
 }
+
+@media (max-width: 580px) {
+    .buy a {
+        width: 10px;
+    }
+}
