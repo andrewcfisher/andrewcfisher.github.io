@@ -20,12 +20,10 @@ body {
     font-size: 3rem;
     color: black;
     text-shadow: 2px 2px gray;
-/*    width: 100%;*/
+    width: 100%;
     padding-top: 20%;
-/*
     padding-left: 8%;
     padding-right: 8%;
-*/
     text-align: center;
     
 }
@@ -39,10 +37,8 @@ body {
     font-size: 3rem;
     width: 100%;
     margin-top: 50%;
-/*
     margin-left: 8%;
     margin-right: 8%;
-*/
 }
 
 .buy a {
