@@ -11,6 +11,9 @@ h1 {
     color: white;
     font-size: 2rem;
     text-align: center;
+    margin-right: ;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .top img {
@@ -29,6 +32,8 @@ h1 {
     font-weight: 500;
     margin-bottom: 3%;
     margin-top: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
 }
 
 .middle p {
