@@ -15,8 +15,16 @@ body {
     width: 100%;
 }
 
-.info {
-    padding: 4%;
+.extra p {
+    font-size: 3rem;
+    color: black;
+    text-shadow: 2px 2px gray;
+    width: 100%;
+    padding-top: 20%;
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+    
 }
 
 .info form {
@@ -28,16 +36,20 @@ body {
     font-size: 3rem;
     width: 100%;
     margin-top: 50%;
-    border: 3px solid black;
-    margin-left: 30%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 .buy a {
     color: #5d091a;
+    border: 3px solid black;
+    padding: 3%;
 }
 
-@media (max-width: 580px) {
-    .buy a {
-        width: 10px;
+
+@media (max-width: 990px) {
+    .banner h1 {
+        font-size: 5rem;
     }
 }
+
