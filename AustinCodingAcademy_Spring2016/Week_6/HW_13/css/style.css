@@ -47,6 +47,33 @@ body {
     padding: 3%;
 }
 
+.left {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #750b20;
+}
+
+.classes img {
+    height: 150px;
+}
+
+.tai_chi img {
+    padding-top: 10%;
+    height: 190px;
+}
+
+.networking img {
+    height: 140px;
+}
+
+
+.classes h3 {
+    font-size: 1.5rem;
+    color: #004d00;
+}
+
+
+
 
 @media (max-width: 990px) {
     .banner h1 {
