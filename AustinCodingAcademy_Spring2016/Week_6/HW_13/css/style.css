@@ -54,22 +54,28 @@ body {
 }
 
 .classes img {
-    height: 150px;
+    height: 220px;
+    width: 100%;
 }
 
-.tai_chi img {
-    padding-top: 10%;
-    height: 190px;
+#networking {
+    height: 200px;
 }
 
-.networking img {
-    height: 140px;
+#tai_chi {
+    padding-top: 12%;
+    height: 200px;
 }
-
 
 .classes h3 {
     font-size: 1.5rem;
     color: #004d00;
+}
+
+.sub_header {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 
@@ -82,19 +88,23 @@ body {
 }
 
 @media (max-width: 850px) {
+/*
     .extra {
         display: none;
     }
+*/
     .info form {
         font-size: 2rem;
     }
 }
 
+/*
 @media (max-width: 990px) {
     .buy a {
         display: none;
     }
 }
+*/
 
 /*
 @media (max-width: 990px min-width: 800) {
