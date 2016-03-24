@@ -80,6 +80,9 @@ body {
     color: #000099;
 }
 
+.foot li {
+    padding-right: 60px;
+}
 
 
 
@@ -88,6 +91,7 @@ body {
         font-size: 5rem;
     }
 }
+
 
 @media (max-width: 850px) {
 /*
