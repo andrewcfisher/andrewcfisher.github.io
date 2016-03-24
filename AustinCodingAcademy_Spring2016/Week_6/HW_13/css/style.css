@@ -2,6 +2,9 @@ body {
     width: 100%;
 }
 
+#menu {
+    color: white;
+}
 .my_header {
     text-align: center;
     font-family: impact;
@@ -80,8 +83,12 @@ body {
     color: #000099;
 }
 
+.foot {
+    padding-left: 110px;
+}
+
 .foot li {
-    padding-right: 60px;
+    padding-right: 90px;
 }
 
 
