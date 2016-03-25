@@ -1,0 +1,14 @@
+/*header styles*/
+
+.my_logo {
+    width: 200px;
+}
+
+.my_header {
+    background-color: bisque;
+    padding: 10px;
+}
+
+.carousel-caption {
+    top: 0;
+}
