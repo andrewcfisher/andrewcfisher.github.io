@@ -62,14 +62,45 @@ body {
     width: 100%;
 }
 
+.slideshow {
+    margin-top: 3%;
+}
+
+#tai_chi {
+    height: 400px;
+    width: 480px;
+}
+
+#dance {
+    height: 400px;
+}
+
+#networking {
+    height: 400px;
+}
+
+#horseback_riding {
+    width: 580px;
+}
+
+/*
 #networking {
     height: 180px;
 }
 
 #tai_chi {
     padding-top: 12%;
-    height: 200px;
+    height: auto;
 }
+
+#dance {
+    height: 180px;
+}
+
+#horseback_riding {
+    height: 180px;
+}
+*/
 
 .classes h3 {
     font-size: 1.5rem;
