@@ -94,36 +94,43 @@ body {
 }
 
 
+@media (max-width: 1200px) {
+    #left_button {
+        width: 110%;
+        font-size: 1.5rem;
+    }
+}
 
-@media (max-width: 990px) {
+@media (max-width: 995px) {
+    #left_button {
+        width: auto;
+        margin-left: 18%;
+        margin-right: 18%;
+        
+    }
     .banner h1 {
         font-size: 5rem;
     }
-}
-
-
-@media (max-width: 850px) {
-/*
-    .extra {
-        display: none;
-    }
-*/
-    .info form {
-        font-size: 2rem;
+    .big_boy {
+        margin-left: 12%;
+        margin-right: 12%;
     }
 }
-
-/*
-@media (max-width: 990px) {
-    .buy a {
-        display: none;
+    
+@media (max-width: 770px) {
+    #left_button {
+        width: auto;
+        margin-left: 30%;   
     }
-}
-*/
-
-/*
-@media (max-width: 990px min-width: 800) {
-    .info form {
-        margin-top: -100px; 
+    .big_boy {
+        width: 80%;
     }
-}*/
+    .classes img {
+        height: 150px;
+    }
+    #networking {
+        height: 150px;
+    }
+    #tai_chi {
+        height: 150px;
+    }
