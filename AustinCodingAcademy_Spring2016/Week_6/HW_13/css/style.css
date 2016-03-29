@@ -27,8 +27,7 @@ body {
     padding-top: 20%;
     padding-left: 8%;
     padding-right: 8%;
-    text-align: center;
-    
+    text-align: center; 
 }
 
 .info form {
@@ -65,6 +64,39 @@ body {
 .slideshow {
     margin-top: 3%;
 }
+
+#carousel-example-generic {
+    margin-left: 12%;
+}
+
+/*
+.carousel-caption {
+    position: absolute;
+    z-index: 1;
+    display:table;
+    width:100%;
+    height:100%;
+}
+*/
+
+.absolute-div {
+    position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+}
+
+.carousel-caption h3 {
+    display:table-cell;
+    vertical-align: middle;
+    text-align:center;
+}
+
+.item {
+    position:relative;
+}
+
 
 #tai_chi {
     height: 400px;
@@ -261,12 +293,18 @@ background-size: 100% 100%;
     .big_boy {
         width: 80%;
     }
-    .classes img {
-        height: 150px;
+    
+    #horseback_riding {
+        height: 290px;
     }
+    
+    #dance {
+        height: 300px;
+    }
+
     #networking {
-        height: 150px;
+        height: 270px;
     }
     #tai_chi {
-        height: 150px;
+        height: 300px;
     }
