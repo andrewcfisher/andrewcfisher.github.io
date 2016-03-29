@@ -56,11 +56,6 @@ body {
     color: #750b20;
 }
 
-.classes img {
-    height: 180px;
-    width: 100%;
-}
-
 .slideshow {
     margin-top: 3%;
 }
@@ -79,6 +74,7 @@ body {
 }
 */
 
+/*
 .absolute-div {
     position: absolute;
       top: 0;
@@ -86,6 +82,7 @@ body {
       right: 0;
       bottom: 0;
 }
+*/
 
 .carousel-caption h3 {
     display:table-cell;
@@ -93,11 +90,14 @@ body {
     text-align:center;
 }
 
+/*
 .item {
     position:relative;
 }
+*/
 
 
+/*
 #tai_chi {
     height: 400px;
     width: 480px;
@@ -114,6 +114,7 @@ body {
 #horseback_riding {
     width: 580px;
 }
+*/
 
 /*
 #networking {
@@ -294,6 +295,7 @@ background-size: 100% 100%;
         width: 80%;
     }
     
+/*
     #horseback_riding {
         height: 300px;
     }
@@ -310,3 +312,4 @@ background-size: 100% 100%;
     #tai_chi {
         height: 300px;
     }
+*/
