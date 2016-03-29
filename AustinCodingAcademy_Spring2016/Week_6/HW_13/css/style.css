@@ -295,7 +295,7 @@ background-size: 100% 100%;
     }
     
     #horseback_riding {
-        height: 290px;
+        height: 300px;
     }
     
     #dance {
@@ -303,8 +303,10 @@ background-size: 100% 100%;
     }
 
     #networking {
-        height: 270px;
+        height: 300px;
+        width: 600px;
     }
+    
     #tai_chi {
         height: 300px;
     }
