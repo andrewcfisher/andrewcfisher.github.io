@@ -1,0 +1,31 @@
+.my_top {
+    background-image: url(https://s-media-cache-ak0.pinimg.com/736x/24/10/70/24107062b5006ab6e0e2ef87a4536c1a.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 500px;
+    background-size: cover;
+}
+
+.my_top h1 {
+    color: #831fe0;
+}
+
+.my_top p {
+    margin-top: 160px;
+    color: cornsilk;
+}
+
+.startrek {
+    height: 200px;
+    width: 100%;
+}
+
+
+
+.my_second {
+    margin-top: 2%;
+}
+
+.big_one p {
+    
+}
