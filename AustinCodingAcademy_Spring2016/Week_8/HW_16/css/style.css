@@ -20,6 +20,23 @@
     width: 100%;
 }
 
+#persona {
+    border-bottom: 10px solid white;
+}
+
+#stud {
+    border-bottom: 10px solid white;
+}
+
+#persona_2 {
+    border-bottom: 10px solid white;
+}
+
+#stud_2 {
+    border-bottom: 10px solid white;
+}
+
+
 .my_second {
     margin-top: 2%;
 }
@@ -64,8 +81,12 @@
 
 @media (max-width: 660px) {
     .my_top {
+        border: 15px solid white;
         height: 300px;
         width: 390px;
+    }
+    .my_top p {
+        margin-top: 90px;
     }
     .startrek {
         height: 390px;
