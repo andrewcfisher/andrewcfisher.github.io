@@ -20,12 +20,14 @@
     width: 100%;
 }
 
-
-
 .my_second {
     margin-top: 2%;
 }
 
 .big_one h2 {
     padding-top: 40px;
+}
+
+.hide_me {
+    visibility: hidden;
 }
