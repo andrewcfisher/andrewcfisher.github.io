@@ -17,7 +17,7 @@ $(document).ready(function(){
         
         var verticalScroll = $(this).scrollTop();
         
-        if(verticalScroll > 25) {
+        if(verticalScroll > 1) {
             
             $('.real_stuff').addClass('animated rotateIn');
             $('.real_stuff').removeClass('hide_me');
@@ -35,11 +35,33 @@ $(document).ready(function(){
         
     });
     
+    $(window).scroll(function() {
+        
+        var verticalScroll = $(this).scrollTop();
+        
+        if(verticalScroll > 75) {
+            
+            $('.real_stuff_2').addClass('animated rotateIn');
+            $('.real_stuff_2').removeClass('hide_me');
+            
+            $('.4_startrek').addClass('animated fadeInRightBig');
+            $('.4_startrek').removeClass('hide_me');
+        
+            
+            $('.6_startrek').addClass('animated fadeInLeftBig');
+            $('.6_startrek').removeClass('hide_me');
+            
+            $('.5_startrek').addClass('animated fadeInUpBig');
+            $('.5_startrek').removeClass('hide_me');
+        }
+        
+    });
+    
         $(window).scroll(function() {
         
         var verticalScroll = $(this).scrollTop();
         
-        if(verticalScroll > 80) {
+        if(verticalScroll > 210) {
             
             $('.for_real').addClass('animated fadeIn');
             
