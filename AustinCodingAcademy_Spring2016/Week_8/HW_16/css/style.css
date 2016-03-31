@@ -31,3 +31,49 @@
 .hide_me {
     visibility: hidden;
 }
+
+.my_foot {
+    width: 750px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.my_foot a {
+    font-size: 3rem;
+    color: #ccad00;
+}
+
+@media (max-width: 1000px) {
+    .my_top {
+        height: 600px;
+        width: 750px;
+    }
+    img {
+        height: 200px;
+    }
+    #bottom_big {
+        margin-top: 410px;
+    }
+} 
+
+@media (max-width: 769px) and (min-width: 660px) {
+    #bottom_big {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 660px) {
+    .my_top {
+        height: 300px;
+        width: 390px;
+    }
+    .startrek {
+        height: 390px;
+    }
+    #bottom_big {
+        margin-top: 0;
+    }
+    .my_foot {
+        width: 390px;
+    }
+} 
