@@ -6,7 +6,9 @@ $(document).ready(function(){
         
         if(verticalScroll > 0) {
             
-            $('.my_top').addClass('animated fadeIn')
+            $('.my_top').addClass('animated fadeIn');
+            
+            $('for_real').addClass('animated pulse infinite');
         }
         
     });
@@ -15,12 +17,12 @@ $(document).ready(function(){
         
         var verticalScroll = $(this).scrollTop();
         
-        if(verticalScroll > 20) {
+        if(verticalScroll > 70) {
             
             $('.real_stuff').addClass('animated rotateIn');
             
             $('.1_startrek').addClass('animated fadeInRightBig');
-            $('.1_startrek').removeClass('hide_me');
+        
             
             $('.3_startrek').addClass('animated fadeInLeftBig');
             $('.3_startrek').removeClass('hide_me');
