@@ -1,0 +1,26 @@
+.my_project {
+    background-color: black;
+    color: #fffff0;
+}
+
+.my_top {
+    background-image: url(http://cdn.theatlantic.com/static/mt/assets/science/assets_c/2013/07/Desert-Gas%20James%20Reeves%20670-thumb-650x365-127937.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.my_project > .navbar.navbar-inverse {
+    background-color: black;
+}
+
+.my_nav li {
+    padding-right: 150px
+}
+
+#my_home {
+    margin-left: 10px
+}
+
+.navbar-brand {
+    padding-right: 150px;
+}
