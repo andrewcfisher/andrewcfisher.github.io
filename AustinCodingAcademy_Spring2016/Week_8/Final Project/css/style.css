@@ -17,6 +17,15 @@
     padding-right: 150px
 }
 
+.nav_2 td {
+    width: 200px;
+    padding-right: 16%;
+}
+.nav_2 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
 #my_home {
     margin-left: 10px
 }
