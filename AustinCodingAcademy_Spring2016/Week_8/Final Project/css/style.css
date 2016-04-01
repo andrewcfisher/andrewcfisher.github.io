@@ -1,6 +1,7 @@
 .my_project {
     background-color: black;
     color: #fffff0;
+    font-family: 'Cabin Sketch', cursive; 
 }
 
 .my_top {
@@ -9,21 +10,48 @@
     height: 600px;
 }
 
+.top_text {
+    padding-top: 15%;
+    font-size: 10rem;
+}
+
+/*
 .my_project > .navbar.navbar-inverse {
     background-color: black;
 }
+*/
 
+/*
 .my_nav li {
     padding-right: 150px
 }
+*/
 
+/*
 .nav_2 td {
     width: 200px;
-    padding-right: 16%;
-}
+    margin-right: 16%;
+    }
+*/
+    
+
 .nav_2 {
-    margin-left: 10%;
-    margin-right: 10%;
+    text-align: center; 
+}
+
+.my_contact {
+    padding-left: 40%;
+}
+
+.my_home {
+    padding-right: 40%;
+}
+
+.nav_2 a {
+    text-decoration: none;
+    color: #fffff0;
+    font-size: 2rem;
+    
 }
 
 #my_home {
