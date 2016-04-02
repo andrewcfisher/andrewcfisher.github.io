@@ -1,17 +1,22 @@
+body {
+    width: 100%;
+}
 .my_project {
     background-color: black;
     color: #fffff0;
     font-family: 'Cabin Sketch', cursive; 
+    
 }
 
 .my_top {
     background-image: url(http://cdn.theatlantic.com/static/mt/assets/science/assets_c/2013/07/Desert-Gas%20James%20Reeves%20670-thumb-650x365-127937.jpg);
     background-size: cover;
     height: 600px;
+    
 }
 
 .top_text {
-    padding-top: 15%;
+    padding-top: 12%;
     font-size: 10rem;
 }
 
