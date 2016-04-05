@@ -36,6 +36,7 @@ body {
 .second_p {
     margin-top: 5%;
     margin-bottom: 5%;
+    width: 82%;
 }
 
 .team img {
@@ -53,6 +54,10 @@ body {
 
 a:hover {
     color: #cb3434;
+}
+
+.my_team {
+    margin-top: 10%;
 }
 
 #darren {

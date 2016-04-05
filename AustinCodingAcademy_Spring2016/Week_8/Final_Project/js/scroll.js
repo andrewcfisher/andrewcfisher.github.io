@@ -18,7 +18,7 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if (verticalScroll > 400) {
+        if (verticalScroll > 290) {
 
             $('.second_p').addClass('animated fadeIn');
             $('.second_p').removeClass('hide_me');
@@ -31,7 +31,7 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if (verticalScroll > 1200) {
+        if (verticalScroll > 1800) {
 
             $('#sensitive').addClass('animated fadeIn');
             $('#sensitive').removeClass('hide_me');
@@ -45,7 +45,7 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if (verticalScroll > 1600) {
+        if (verticalScroll > 1900) {
             $('#intention').addClass('animated fadeIn');
             $('#intention').removeClass('hide_me');
 
