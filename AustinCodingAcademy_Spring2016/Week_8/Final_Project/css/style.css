@@ -81,8 +81,23 @@ a:hover {
     }
 */
 
-.violence {
+#violence {
+    background-image: url(../images/website_violence.jpg);
+    background-size: cover;
     width: 50%;
+    height: 300px;
+    margin-top: 2%;
+}
+
+.sensitive {
+    margin-top: 2%;
+}
+#violence p {
+    padding-top: 2%;
+}
+
+.sensitive p {
+    line-height: 40px;
 }
  
 .hide_me {
@@ -115,4 +130,11 @@ a:hover {
 
 .navbar-brand {
     padding-right: 150px;
+}
+
+.my_foot {
+    margin-top: 1%;
+}
+.my_foot p {
+    font-size: 1.8rem;
 }
