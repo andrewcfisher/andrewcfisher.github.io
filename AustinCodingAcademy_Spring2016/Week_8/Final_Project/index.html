@@ -13,11 +13,11 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
-    <link href="css/animate.css" rel="stylesheet"/>
+    <link href="css/animate.css" rel="stylesheet" />
 
     <!-- My Styles -->
 
-    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/style.css" rel="stylesheet" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,25 +35,30 @@
 
             <div class="col-md-4">
 
-                <ul>
-
-                    <a class="my_home" href="#">Home</a>
-                    <a href="#">About</a>
+                <a class="my_home scroll" href="#main_home">Home</a>
+                <a class="scroll" href="#about_anchor">About</a>
 
 
+
+            </div>
+
+            <div class="col-md-4">
+
+                <a class="scroll" id="after_hours" href="#main_home">After Hours</a>
+
+            </div>
+
+            <div class="col-md-4">
+
+                <a class="scroll" href="#filmmakers">Filmmakers</a>
+
+                <!-- dropdown -->
+
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="my_contact">Contact</span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Andrewcfisher1<span class=at_symbol>@</span>gmail.com</a></li>
+                    <li><a href="#">512-665-2261</a></li>
                 </ul>
-            </div>
-
-            <div class="col-md-4">
-
-                <a id="after_hours" href="#">After Hours</a>
-
-            </div>
-
-            <div class="col-md-4">
-
-                <a href="#">Filmmakers</a>
-                <a class="my_contact" href="#">Contact</a>
 
 
             </div>
@@ -65,79 +70,12 @@
 
 
 
-        <!--
-        <table>
-            <tr>
-                
-            <td><a href="#">Home</a></td>
-                
-            <td><a href="#">About</a></td>
-                
-            <td><a href="#">After&nbsp;Hours</a></td>
-                
-            <td><a href="#">Filmmakers</a></td>
-                
-            <td><a href="#">Contact</a></td>
-            
-            </tr>
-            
-            
-            
-            
-            
-            </table>
--->
-
-
-
-
-
-
-
-
-
-
-        <!--
-        <nav class="navbar navbar-inverse my_nav">
-            <div class="container-fluid">
-                 Brand and toggle get grouped for better mobile display 
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span id="menu">Menu</span>
-                    </button>
-                    
-                </div>
--->
-
-
-        <!--
-                 Collect the nav links, forms, and other content for toggling 
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                        <li id="my_home" class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-                        <li><a href="#">About</a></li>
-                        <a class="navbar-brand" href="#">After Hours</a>
-                        <li><a href="#">Filmmakers</a></li>
-                        <li><a href="#">Contact</a></li>
-                        </ul>
-                        
-        
-
-        
-                    
-                </div>
-                
-            </div>
-            
-        </nav>
--->
 
         <div class="row">
 
             <div class="col-md-12 text-center my_top">
 
-                <h1 class="top_text">After Hours</h1>
+                <h1 class="top_text" id="main_home">After Hours</h1>
 
                 <h2 class="top_2_text">A Short Film</h2>
 
@@ -145,7 +83,7 @@
 
             <div class="col-md-12 my_about">
 
-                <p class="text-center the_encounter hide_me">In the dead of night, a young black woman enters a convenience store with a loaded gun,
+                <p class="text-center the_encounter hide_me" id="about_anchor">In the dead of night, a young black woman enters a convenience store with a loaded gun,
                     <br> triggering a planned encounter with an unsuspecting white male.</p>
 
             </div>
@@ -161,9 +99,9 @@
 
 
 
-            <div class="row">
+            <div class="row the_homies">
 
-                <div class="col-md-12 text-center my_team">
+                <div class="col-md-12 text-center my_team" id="filmmakers">
 
                     <h2>Creative Team</h2>
 
@@ -173,43 +111,46 @@
 
                     <img id="andrew" src="../Final_Project/images/acF_resize.jpg">
 
-                    <h3><a href="#">Andrew C. Fisher <br>Writer/Director</a></h3>
+                    <h3><a href="https://andrewcfisher.wordpress.com/">Andrew C. Fisher <br>Writer/Director</a></h3>
                 </div>
 
                 <div class="col-md-6 text-center team andrew_felipe">
 
                     <img id="felipe" src="../Final_Project/images/Felipe_resize.jpg">
 
-                    <h3><a href="#">Felipe Gon <br> Executive Producer</a></h3>
+                    <h3><a href="http://www.imdb.com/name/nm6632695/">Felipe Gon <br> Executive Producer</a></h3>
                 </div>
 
                 <div class="col-md-6 text-center team">
 
                     <img id="darren" src="../Final_Project/images/darren_resize_2.jpg">
 
-                    <h3><a href="#">Darren Alberti <br> Producer/Lead Actor</a></h3>
+                    <h3><a href="http://www.imdb.com/name/nm4775586/">Darren Alberti <br> Producer/Lead Actor</a></h3>
                 </div>
 
-                <div class="col-md-6 text-center team">
+                <div class="col-md-6 text-center team maryn_image">
 
                     <img id="maryn" src="../Final_Project/images/Maryn_resize.jpg">
 
-                    <h3><a href="#">Maryn Masumiya <br> Production Designer</a></h3>
+                    <h3><a href="https://www.linkedin.com/in/maryn-masumiya-99061421">Maryn Masumiya <br> Production Designer</a></h3>
                 </div>
 
             </div>
-            
+
             <div class="row">
 
-            <div class="col-md-12 my_about text-center" id="violence">
+                <div class="col-md-12 my_about text-center" id="violence">
 
-                <p id="discourse">Race is at the forefront of contemporary American discourse.<br> It’s volatile and inflammatory, stirring tension and, most regrettably, <br>inciting violence.</p>
-                
-                <p id="sensitive" class="hide_me">We’re especially sensitive to appearances and perception in matters of race – perceived threats, perceived prejudices.</p>
-                
-                <p id="intention" class="hide_me">After Hours is intended in part to show how these appearances are just that: appearances. <br>They can deceive and mislead.</p>
+                    <p id="discourse">Race is at the forefront of contemporary American discourse.
+                        <br> It’s volatile and inflammatory, stirring tension and, most regrettably,
+                        <br>inciting violence.</p>
 
-            </div>
+                    <p id="sensitive" class="hide_me">We’re especially sensitive to appearances and perception in matters of race – perceived threats, perceived prejudices.</p>
+
+                    <p id="intention" class="hide_me">After Hours is intended in part to show how these appearances are just that: appearances.
+                        <br>They can deceive and mislead.</p>
+
+                </div>
 
             </div>
 
@@ -241,12 +182,12 @@
 
     </div>
 
-<!--     jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!--     jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!--     Include all compiled plugins (below), or include individual files as needed -->
+    <!--     Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scroll.js"></script>
-    
+
 </body>
 
 </html>

@@ -4,15 +4,17 @@ body {
 .my_project {
     background-color: black;
     color: #fffff0;
-    font-family: 'Cabin Sketch', cursive; 
-    
+    font-family: 'Cabin Sketch', cursive;    
 }
 
 .my_top {
     background-image: url(http://cdn.theatlantic.com/static/mt/assets/science/assets_c/2013/07/Desert-Gas%20James%20Reeves%20670-thumb-650x365-127937.jpg);
     background-size: cover;
-    height: 600px; 
-    margin-top: -1%
+    height: 600px;  
+}
+
+.at_symbol {
+    font-family: sans-serif;
 }
 
 #after_hours {
@@ -24,8 +26,9 @@ body {
     font-size: 10rem;
 }
 
-.encounter {
-    padding-top: 1%;
+.the_encounter {
+    margin-top: 1%;
+    padding-top: 10%;
     padding-bottom: 2%;
 }
 .my_about p {
@@ -57,7 +60,7 @@ a:hover {
 }
 
 .my_team {
-    margin-top: 10%;
+    margin-top: 14%;
 }
 
 #darren {
@@ -66,6 +69,7 @@ a:hover {
 
 #maryn {
     height: 280px;
+    opacity: .8;
 }
 
 #andrew {
@@ -76,38 +80,19 @@ a:hover {
     height: 400px;
 }
 
-
-/*
-.my_project > .navbar.navbar-inverse {
-    background-color: black;
-}
-*/
-
-/*
-.my_nav li {
-    padding-right: 150px
-}
-*/
-
-/*
-.nav_2 td {
-    width: 200px;
-    margin-right: 16%;
-    }
-*/
-
 #violence {
     background-image: url(../images/website_violence.jpg);
     background-size: cover;
     width: 100%;
     height: 700px;
-    margin-top: 2%;
+    margin-top: 7%;
 }
 
 #discourse {
     padding-top: 7%;
     line-height: 40px;
     font-size: 2.2rem;
+    font-family: 'Cabin Sketch', cursive;
 }
 
 #sensitive {
@@ -116,6 +101,7 @@ a:hover {
     font-size: 2.4rem;
     font-weight: 700;
     text-shadow: 1px 1px black;
+    font-family: 'Cabin Sketch', cursive; 
 }
 
 #intention {
@@ -124,9 +110,9 @@ a:hover {
     font-weight: 700;
     margin-top: 6%;
     text-shadow: 1px 1px black;
+    color: #cb3434;
+    font-family: 'Cabin Sketch', cursive; 
 }
-
-
 
  
 .hide_me {
@@ -157,13 +143,56 @@ a:hover {
     margin-left: 10px
 }
 
-.navbar-brand {
-    padding-right: 150px;
-}
 
 .my_foot {
     margin-top: 6%;
+    padding-bottom: 3%;
 }
 .my_foot p {
     font-size: 1.8rem;
+}
+
+@media (max-width: 1000px) {
+    .my_top {
+        height: 500px;
+    }
+    #main_home {
+        font-size: 8rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .my_top {
+        height: 300px;
+    }
+}
+
+@media (max-width: 675px) {
+    #main_home {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 660px) {
+    .my_top {
+        height: 350px;
+    }
+}
+
+@media (max-width: 600px) {
+    .my_top {
+        height: 250px;
+    }
+}
+
+@media (max-width: 550px) {
+    .my_top {
+        height: 240px;
+    }
+}
+
+@media (max-width: 500px) {
+    .my_top {
+        height: 200px;
+    }
 }
