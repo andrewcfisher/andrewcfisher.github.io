@@ -108,7 +108,7 @@ a:hover {
     color: #cb3434;
     font-size: 2.6rem;
     font-weight: 700;
-    margin-top: 6%;
+    margin-top: 5%;
     text-shadow: 1px 1px black;
     color: #cb3434;
     font-family: 'Cabin Sketch', cursive; 
@@ -150,6 +150,9 @@ a:hover {
     margin-top: 10%;
 }
 
+.awards {
+    margin-top: 4%;
+}
 .awards h2 {
     font-size: 2rem;
 }
