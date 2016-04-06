@@ -4,7 +4,7 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if (verticalScroll > 100) {
+        if (verticalScroll > 200) {
 
             $('.the_encounter').addClass('animated fadeIn');
             $('.the_encounter').removeClass('hide_me');
@@ -18,7 +18,7 @@ $(document).ready(function () {
 
         var verticalScroll = $(this).scrollTop();
 
-        if (verticalScroll > 290) {
+        if (verticalScroll > 320) {
 
             $('.second_p').addClass('animated fadeIn');
             $('.second_p').removeClass('hide_me');

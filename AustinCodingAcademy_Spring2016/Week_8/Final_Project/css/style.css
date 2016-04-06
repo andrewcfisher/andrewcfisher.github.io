@@ -143,6 +143,17 @@ a:hover {
     margin-left: 10px
 }
 
+.my_awards {
+    height: 150px;
+    width: 80%;
+    opacity: .9;
+    margin-top: 10%;
+}
+
+.awards h2 {
+    font-size: 2rem;
+}
+
 
 .my_foot {
     margin-top: 6%;
