@@ -17,10 +17,6 @@ body {
     font-family: sans-serif;
 }
 
-#after_hours {
-    font-size: 2.2rem;
-}
-
 .top_text {
     padding-top: 12%;
     font-size: 10rem;
@@ -60,7 +56,7 @@ a:hover {
 }
 
 .my_team {
-    margin-top: 14%;
+    margin-top: 10%;
 }
 
 #darren {
@@ -197,6 +193,12 @@ a:hover {
     .my_top {
         height: 250px;
     }
+    .my_about p {
+        font-size: 1.2rem;
+    }
+    .the_encounter {
+        width: 80%;
+    }
 }
 
 @media (max-width: 550px) {
@@ -208,5 +210,44 @@ a:hover {
 @media (max-width: 500px) {
     .my_top {
         height: 200px;
+    }
+    .my_team {
+        margin-top: -200px;
+    }
+    #andrew {
+        height: 300px;
+    }
+    #felipe {
+        height: 300px;
+    }
+    #darren {
+        height: 200px;
+    }
+    #maryn {
+        height: 200px;
+    }
+    #violence {
+        height: 300px;
+    }
+    #discourse {
+        font-size: 1.2rem;
+        line-height: 30px
+    }
+    
+    #sensitive {
+        font-size: 1.3rem;
+        margin-top: 60px;
+    }
+    
+    #intention {
+        font-size: 1.3rem;
+    }
+    
+    .my_awards {
+        height: 100px
+    }
+    
+    #brag {
+        font-size: 1rem;
     }
 }
