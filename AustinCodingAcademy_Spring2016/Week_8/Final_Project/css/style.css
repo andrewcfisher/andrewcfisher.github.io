@@ -270,6 +270,14 @@ a:hover {
 @media (max-width: 770px) {
     .my_about p {
         font-size: 1.4rem;
+        margin-top: 0;
+    }
+    
+    #main_home {
+        padding-top: 5%;
+    }
+    .my_top {
+        height: 370px;
     }
 }
 
@@ -284,7 +292,10 @@ a:hover {
 
 @media (max-width: 700px) {
     .my_top {
-        height: 300px;
+        height: 325px;
+    }
+    #main_home {
+        padding-top: 5%;
     }
 }
 
@@ -312,16 +323,13 @@ a:hover {
         height: 350px;
     }
     .my_about p {
-        font-size: 1.2rem
+        font-size: 1.3rem;
     }
 }
 
 @media (max-width: 600px) {
     .my_top {
         height: 270px;
-    }
-    .my_about p {
-        font-size: 1.2rem;
     }
     .the_encounter {
         width: 80%;
@@ -333,13 +341,6 @@ a:hover {
         height: 240px;
     }
 }
-
-@media (max-width: 994px) {
-/*
-    #homie { 
-        display: none;
-    }
-*/
 
 @media (max-width: 500px) {
     .my_top {
@@ -408,4 +409,12 @@ a:hover {
     
     .my_top {
         height: 220px;
+    }
+    #main_home {
+        font-size: 4rem;
+        padding-top: 5%;
+    }
+    
+    .my_top h2 {
+        font-size: 2.3rem;
     }
