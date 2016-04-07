@@ -7,10 +7,31 @@ body {
     font-family: 'Cabin Sketch', cursive;    
 }
 
+#phone_nav {
+    background-color: black;
+}
+
+.phone_filmmakers {
+    padding-left: 2%;
+}
+
+.phone_about {
+    padding-left: 8%;
+}
+
+.little_nav {
+    width: 100%;
+}
+
+.little_nav a {
+    text-decoration: none;
+    color: #fffff0;
+}
+
 .my_top {
     background-image: url(http://cdn.theatlantic.com/static/mt/assets/science/assets_c/2013/07/Desert-Gas%20James%20Reeves%20670-thumb-650x365-127937.jpg);
     background-size: cover;
-    height: 600px;  
+    height: 680px;  
 }
 
 .at_symbol {
@@ -40,6 +61,10 @@ body {
 
 .team img {
     width: 50%;
+}
+
+.team p {
+    font-size: 2rem;
 }
 
 .team a {
@@ -104,7 +129,7 @@ a:hover {
     color: #cb3434;
     font-size: 2.6rem;
     font-weight: 700;
-    margin-top: 5%;
+    margin-top: 3%;
     text-shadow: 1px 1px black;
     color: #cb3434;
     font-family: 'Cabin Sketch', cursive; 
@@ -149,8 +174,8 @@ a:hover {
 .awards {
     margin-top: 4%;
 }
-.awards h2 {
-    font-size: 2rem;
+.awards p {
+    font-size: 1.7rem;
 }
 
 
@@ -162,9 +187,95 @@ a:hover {
     font-size: 1.8rem;
 }
 
+@media (max-width: 1080px) {
+    .my_top {
+        height: 470px;
+    }
+
 @media (max-width: 1000px) {
     .my_top {
+        height: 450px;
+    }
+    
+    .my_contact {
+        padding-left: 5%;
+    }
+    
+    .my_home {
+        padding-right: 5%;
+    }
+    
+    .nav_2 {
+        
+    }
+    #main_home {
+        font-size: 8rem;
+    }
+}
+
+@media (max-width: 995px) {
+    .my_awards {
+        height: 125px;
+        width: 40%;
+    }
+
+@media (max-width: 975px) {
+    #violence {
         height: 500px;
+    }
+    #sensitive {
+        font-size: 2rem;
+        margin-top: 18%;
+    }
+    #intention {
+        font-size: 2rem;
+    }
+    
+    #andrew {
+        height: 200px;
+        width: 120px;
+    }
+    #felipe {
+        height: 200px;
+        width: 120px;
+    }
+    #darren {
+        height: 150px;
+        width: 150px;
+    }
+    #maryn {
+        height: 150px;
+        width: 150px;
+    }
+    
+    #bragging {
+        margin-top: 0;
+    }
+    
+    .my_awards {
+        height: 100px;
+        width: 30%;
+    }
+    
+    
+@media (max-width: 800px) {
+    .my_top {
+        margin-top: 10%;
+    }
+    #main_home {
+        font-size: 8rem;
+    }
+}
+
+@media (max-width: 770px) {
+    .my_about p {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .my_top {
+        height: 340px;
     }
     #main_home {
         font-size: 8rem;
@@ -181,17 +292,33 @@ a:hover {
     #main_home {
         font-size: 5rem;
     }
+    #violence {
+        height: 400px;
+    }
+    #sensitive {
+        font-size: 1.7rem;
+        margin-top: 12%;
+    }
+    #intention {
+        font-size: 1.7rem;
+    }
+    #discourse {
+        font-size: 1.6rem;
+    }
 }
 
 @media (max-width: 660px) {
     .my_top {
         height: 350px;
     }
+    .my_about p {
+        font-size: 1.2rem
+    }
 }
 
 @media (max-width: 600px) {
     .my_top {
-        height: 250px;
+        height: 270px;
     }
     .my_about p {
         font-size: 1.2rem;
@@ -207,24 +334,42 @@ a:hover {
     }
 }
 
+@media (max-width: 994px) {
+/*
+    #homie { 
+        display: none;
+    }
+*/
+
 @media (max-width: 500px) {
     .my_top {
-        height: 200px;
+        height: 225px;
+        margin-top: 15%;
     }
-    .my_team {
-        margin-top: -200px;
+    
+    
+    .my_team h2 {
+        font-size: 2.4rem;
+    }
+    
+    .team p {
+        font-size: 1.3rem;
     }
     #andrew {
-        height: 300px;
+        height: 150px;
+        width: 110px;
     }
     #felipe {
-        height: 300px;
+        height: 150px;
+        width: 110px;
     }
     #darren {
-        height: 200px;
+        height: 100px;
+        width: 100px;
     }
     #maryn {
-        height: 200px;
+        height: 100px;
+        width: 100px;
     }
     #violence {
         height: 300px;
@@ -244,10 +389,23 @@ a:hover {
     }
     
     .my_awards {
-        height: 100px
+        height: 80px;
+        width: 120px;
     }
     
-    #brag {
-        font-size: 1rem;
+    .awards p {
+        font-size: 1.4rem;
     }
+    
+    .my_foot h2 {
+        font-size: 2rem;
+        margin-top: 12%;
+    }
+    
 }
+    
+@media (max-width: 470px) {
+    
+    .my_top {
+        height: 220px;
+    }
