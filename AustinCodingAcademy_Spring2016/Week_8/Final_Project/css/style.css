@@ -4,7 +4,8 @@ body {
 .my_project {
     background-color: black;
     color: #fffff0;
-    font-family: 'Cabin Sketch', cursive;    
+    font-family: 'Cabin Sketch', cursive;
+    width: 100%;
 }
 
 #phone_nav {
@@ -135,7 +136,6 @@ a:hover {
     font-family: 'Cabin Sketch', cursive; 
 }
 
- 
 .hide_me {
     visibility: hidden;
 }
