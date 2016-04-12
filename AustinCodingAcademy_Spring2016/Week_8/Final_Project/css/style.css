@@ -377,12 +377,12 @@ a:hover {
     }
     #discourse {
         font-size: 1.2rem;
-        line-height: 30px
+        line-height: 25px
     }
     
     #sensitive {
         font-size: 1.3rem;
-        margin-top: 60px;
+        margin-top: 40px;
     }
     
     #intention {
