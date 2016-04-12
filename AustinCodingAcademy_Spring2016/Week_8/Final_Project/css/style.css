@@ -60,6 +60,26 @@ body {
     width: 82%;
 }
 
+.bio {
+    height: 200px;
+    font-size: 2rem;
+    width: 40%;
+    padding-top: 5%;
+}
+
+.work {
+    color: #fffff0;
+}
+
+.team {
+    margin-left: 15%;
+    padding: 2%;
+}
+
+#felipe_bio {
+    padding-top: 3%;
+}
+
 .team img {
     width: 50%;
 }
@@ -85,21 +105,24 @@ a:hover {
     margin-top: 10%;
 }
 
+#darren_bio {
+    padding-top: 3%;
+}
 #darren {
-    height: 280px;
+    height: 120px;
 }
 
 #maryn {
-    height: 280px;
+    height: 120px;
     opacity: .8;
 }
 
 #andrew {
-    height: 400px;
+    height: 200px;
 }
 
 #felipe {
-    height: 400px;
+    height: 200px;
 }
 
 #violence {
