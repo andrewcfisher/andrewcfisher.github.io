@@ -69,6 +69,11 @@ body {
 
 .work {
     color: #fffff0;
+    font-size: 1.4rem;
+}
+
+.bio p {
+    font-size: 1.4rem;
 }
 
 .team {
@@ -240,6 +245,11 @@ a:hover {
         height: 125px;
         width: 40%;
     }
+    
+    #andrew {
+        height: 95px;
+        width: 75px;
+    }
 
 @media (max-width: 975px) {
     #violence {
@@ -254,8 +264,7 @@ a:hover {
     }
     
     #andrew {
-        height: 200px;
-        width: 120px;
+        height: 95px;
     }
     #felipe {
         height: 200px;
@@ -310,6 +319,9 @@ a:hover {
     #main_home {
         font-size: 8rem;
     }
+    .bio p {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 700px) {
@@ -356,11 +368,23 @@ a:hover {
     .the_encounter {
         width: 80%;
     }
+    .bio p {
+        font-size: 1rem;
+    }
+    .work {
+        font-size: 1.2rem;
+    }
 }
 
 @media (max-width: 550px) {
     .my_top {
         height: 240px;
+    }
+    .bio p {
+        font-size: .9rem;
+    }
+    .work {
+        font-size: 1rem;
     }
 }
 
