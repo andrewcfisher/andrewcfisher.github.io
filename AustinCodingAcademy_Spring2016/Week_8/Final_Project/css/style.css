@@ -61,10 +61,11 @@ body {
 }
 
 .bio {
-    height: 200px;
     font-size: 2rem;
-    width: 40%;
-    padding-top: 5%;
+    width: 60%;
+    overflow-y: scroll;
+    height: 150px;
+    margin-top: 2%;
 }
 
 .work {
@@ -76,21 +77,20 @@ body {
     font-size: 1.4rem;
 }
 
+
 .team {
     padding: 2%;
-}
-
-#felipe_bio {
-    padding-top: 3%;
 }
 
 .team img {
     width: 50%;
 }
 
+/*
 .team p {
     font-size: 2rem;
 }
+*/
 
 .team a {
     text-decoration: none;
@@ -109,9 +109,6 @@ a:hover {
     margin-top: 10%;
 }
 
-#darren_bio {
-    padding-top: 3%;
-}
 #darren {
     height: 120px;
 }
