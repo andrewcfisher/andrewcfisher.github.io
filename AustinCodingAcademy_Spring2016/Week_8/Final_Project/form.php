@@ -4,9 +4,9 @@
 		$email = $_POST['email'];
 		$message = $_POST['message'];
 		$human = intval($_POST['human']);
-		$from = 'Demo Contact Form'; 
-		$to = 'example@bootstrapbay.com'; 
-		$subject = 'Message from Contact Demo ';
+		$from = 'After Hours Contact'; 
+		$to = 'andruwf@yahoo.com'; 
+		$subject = 'Message from After Hours Contact';
 		
 		$body = "From: $name\n E-Mail: $email\n Message:\n $message";
  
@@ -25,9 +25,9 @@
 			$errMessage = 'Please enter your message';
 		}
 		//Check if simple anti-bot test is correct
-		if ($human !== 5) {
-			$errHuman = 'Your anti-spam is incorrect';
-		}
+//		if ($human !== 5) {
+//			$errHuman = 'Your anti-spam is incorrect';
+//		}
  
 // If there are no errors, send the email
 if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
@@ -67,7 +67,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
 
     <body>
 
-        <div class="container-fluid">
+        <div class="container-fluid my_form">
 
             <div class="row">
 
