@@ -1,31 +1,31 @@
 $(document).ready(function () {
 
-    $(window).scroll(function () {
-
-        var verticalScroll = $(this).scrollTop();
-
-        if (verticalScroll > 150) {
-
-            $('.the_encounter').addClass('animated fadeIn');
-            $('.the_encounter').removeClass('hide_me');
-
-
-        }
-
-    });
-
-    $(window).scroll(function () {
-
-        var verticalScroll = $(this).scrollTop();
-
-        if (verticalScroll > 320) {
-
-            $('.second_p').addClass('animated fadeIn');
-            $('.second_p').removeClass('hide_me');
-
-        }
-
-    });
+//    $(window).scroll(function () {
+//
+//        var verticalScroll = $(this).scrollTop();
+//
+//        if (verticalScroll > 150) {
+//
+//            $('.the_encounter').addClass('animated fadeIn');
+//            $('.the_encounter').removeClass('hide_me');
+//
+//
+//        }
+//
+//    });
+//
+//    $(window).scroll(function () {
+//
+//        var verticalScroll = $(this).scrollTop();
+//
+//        if (verticalScroll > 320) {
+//
+//            $('.second_p').addClass('animated fadeIn');
+//            $('.second_p').removeClass('hide_me');
+//
+//        }
+//
+//    });
 
     
     //smooth scroll try

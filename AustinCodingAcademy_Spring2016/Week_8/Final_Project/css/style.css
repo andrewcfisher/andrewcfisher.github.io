@@ -248,10 +248,8 @@ a:hover {
         width: 40%;
     }
     
-    #andrew {
-        height: 95px;
-        width: 75px;
-    }
+    
+
 
 @media (max-width: 975px) {
     #violence {
@@ -265,6 +263,11 @@ a:hover {
         font-size: 2rem;
     }
     
+    .bio {
+        width: 100%;
+    }
+    
+/*
     #andrew {
         height: 95px;
     }
@@ -280,6 +283,7 @@ a:hover {
         height: 150px;
         width: 150px;
     }
+*/
     
     #bragging {
         margin-top: 0;
@@ -405,20 +409,20 @@ a:hover {
         font-size: 1.3rem;
     }
     #andrew {
-        height: 150px;
-        width: 110px;
+        height: 95px;
+        width: 87px;
     }
     #felipe {
-        height: 150px;
-        width: 110px;
+        height: 95px;
+        width: 87px;
     }
     #darren {
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
     }
     #maryn {
-        height: 100px;
-        width: 100px;
+        height: 90px;
+        width: 90px;
     }
     #violence {
         height: 300px;
