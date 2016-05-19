@@ -64,6 +64,10 @@ body {
     width: 82%;
 }
 
+#filmmakers {
+    margin-bottom: 5%;
+}
+
 .bio {
     font-size: 2rem;
     width: 60%;
@@ -78,10 +82,13 @@ body {
     font-size: 1.4rem;
 }
 
+.people {
+    margin-bottom: 7%;
+}
+
 .bio p {
     font-size: 1.4rem;
 }
-
 
 .team {
     padding: 2%;
@@ -115,20 +122,23 @@ a:hover {
 }
 
 #darren {
-    height: 120px;
+    height: 130px;
+    width: 130px;
 }
 
 #maryn {
-    height: 120px;
+    height: 140px;
+    width: 140px;
     opacity: .8;
 }
 
 #andrew {
-    height: 190px;
+    height: 120px;
+    width: 120px;
 }
 
 #felipe {
-    height: 190px;
+    height: 180px;
 }
 
 #violence {
