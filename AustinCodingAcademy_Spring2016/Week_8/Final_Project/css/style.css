@@ -79,7 +79,7 @@ body {
 
 .work {
     color: #fffff0;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .people {
@@ -87,7 +87,7 @@ body {
 }
 
 .bio p {
-    font-size: 1.4rem;
+    font-size: 1.6rem;
 }
 
 .team {
@@ -258,6 +258,10 @@ a:hover {
         width: 40%;
     }
     
+    #felipe {
+        width: 140px;
+    }
+    
     
 
 
@@ -347,6 +351,9 @@ a:hover {
     #main_home {
         padding-top: 5%;
     }
+    .bio {
+        margin-left: -55px;
+    }
 }
 
 @media (max-width: 675px) {
@@ -419,11 +426,11 @@ a:hover {
         font-size: 1.3rem;
     }
     #andrew {
-        height: 95px;
-        width: 87px;
+        height: 90px;
+        width: 90px;
     }
     #felipe {
-        height: 95px;
+        height: 110px;
         width: 87px;
     }
     #darren {
